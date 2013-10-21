@@ -1,0 +1,14 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "testPanel",
+        "designer|initialView": true,
+        "layout": "card"
+    },
+    "designerId": "5fe79604-e390-4472-9bb2-1b8325278055"
+}

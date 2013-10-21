@@ -1,0 +1,71 @@
+{
+    "name": "test",
+    "settings": {
+        "exportPath": "C:/wamp/www/dev/",
+        "urlPrefix": "http://localhost/dev/test/"
+    },
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1044,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "touch23",
+    "topInstanceFileMap": {
+        "d33d2055-9da3-403b-9180-9b5b09ee4086": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "5fe79604-e390-4472-9bb2-1b8325278055": {
+            "paths": [
+                "metadata/view/testPanel",
+                "app/view/override/testPanel.js",
+                "app/view/testPanel.js"
+            ],
+            "className": "testPanel"
+        },
+        "ab61d0e8-1769-417a-9049-25947a81f714": {
+            "paths": [
+                "metadata/store/optionsStore",
+                "app/store/override/optionsStore.js",
+                "app/store/optionsStore.js"
+            ],
+            "className": "optionsStore"
+        },
+        "033a2bcf-2420-4ad6-b9da-439e45de541a": {
+            "paths": [
+                "metadata/controller/MyController",
+                "app/controller/override/MyController.js",
+                "app/controller/MyController.js"
+            ],
+            "className": "MyController"
+        },
+        "af4ff4c8-7508-4595-b3ad-e0ba39269fd0": {
+            "paths": [
+                "metadata/view/MyList",
+                "app/view/override/MyList.js",
+                "app/view/MyList.js"
+            ],
+            "className": "MyList"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "5fe79604-e390-4472-9bb2-1b8325278055",
+            "af4ff4c8-7508-4595-b3ad-e0ba39269fd0"
+        ],
+        "store": [
+            "ab61d0e8-1769-417a-9049-25947a81f714"
+        ],
+        "controller": [
+            "033a2bcf-2420-4ad6-b9da-439e45de541a"
+        ],
+        "model": [],
+        "resource": [
+            "d33d2055-9da3-403b-9180-9b5b09ee4086"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

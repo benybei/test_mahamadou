@@ -1,0 +1,83 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": "100%",
+        "designer|userClassName": "MyList",
+        "store": "optionsStore"
+    },
+    "designerId": "af4ff4c8-7508-4595-b3ad-e0ba39269fd0",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "implHandler": [
+                    "<div>List Item {string}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "77339e54-fbca-4b7a-8047-9d6afe098ea2"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "itemId": "testContainer"
+            },
+            "designerId": "fc303aec-ff98-4e9b-b8e1-ea12aa4c6380"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "designerId": "ea0032d0-4cd9-4fb3-b2d4-46626863f26b",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "mybutton",
+                        "ui": "back",
+                        "text": "Back"
+                    },
+                    "designerId": "f43bf5c2-c9c5-44dc-8b7e-5981db1f2e0f",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "designerId": "ff2c6953-dc40-42d1-8221-f11bc0de7950"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
